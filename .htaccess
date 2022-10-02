@@ -1,0 +1,10 @@
+RewriteOptions inherit
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^ecosistema\.online$ [OR]
+RewriteCond %{HTTP_HOST} ^ecosistema\.online$
+RewriteRule ^/?$ "http\:\/\/ecosistema\.online\/Sistema\/src\/login\/login.php\/" [R=301,L]
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Este domínio herda o pacote “PHP”.
+# php -- END cPanel-generated handler, do not edit
